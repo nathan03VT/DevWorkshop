@@ -1,0 +1,43 @@
+1. Check out the code reviewer guidelines for software engineers at Yelp and Microsoft (Visual Studio Mobile team). 
+What concepts are similar between the companies (List at least two)? What are some key differences (List at least two)? 
+In general, what items should be present in a code review checklist for a development team?
+
+Similarities:
+    1. Both Yelp & Microsoft Visual Studio Mobile teams emphasize the importance of communication during code review
+       process. Yelp emphasizes providing context on the changes made and having disucssions through direct conversations
+       and Microsoft stresses the need for open communication between the reviewer and submitter.
+    2. Both companies of software engineers highlight that reviewers share responsibility for the code they review and are
+       equally responsible for ensuring correctness, good design, security and maintainability.
+Differences:
+    1. Microsoft uses an Emoji code where they can convery meaning and misunderstandings throuhg emojis that convery different
+       meanings like thumbs up (+1) for good work, ? (:question:) for a question/clarification and X for needed changes.
+    2. Has specifically mentioned checnking out the style of how comments during a code review are made and emphasizes the need
+       for checking the strategies used to conduct correctness testing to ensure they accurately reflect the behavior of the the 
+       needed code.
+General Code Review Checklist:
+    1. Communicate Context and Requirements to the code reviewer.
+    2. Identify the best reviewer and establish a timeline.
+    3. Clearly define responsibilities.
+    4. Make code easy to follow logically and syntatically.
+    5. Ensure style consistency.
+    6. Verify the code for correctness and quality.
+    7. Ensure the code is maintainable.
+    8. Check for well-organized and efficent logic, suggest architecture suggestions if needed
+    9. Clearly communicate the needed changes in a constructive way with suggestions, positive feedback, and necessary changes.
+    10. Confirm adequate test converage and safety for deployment.
+
+2. Find an example of a "good" code review. Provide a link to the review and explain why you found the review beneficial.
+
+Link: https://stackoverflow.com/questions/4074991/generate-all-permutations-of-all-lengths
+This code review is good because it effectively communicates the problem to the reviewers and the reviewers provide varying ideas
+on how to improve upon the code found. Specifically they mention easier ways to generate a permutation and find the subsets without
+giving away the answer and simply telling the user they were wrong.
+
+3. 3. Find an example of a "bad" code review. Provide a link to the review and briefly explain why you found the review not beneficial. 
+In addition, include recommendations for improvement to the review feedback.
+
+Link: https://stackoverflow.com/questions/57760842/why-would-we-use-useeffect-without-a-dependency-array
+This code review does not provide context for what the issues is and is a secondary reviewer not a primary which leads to distorted
+information when conveying the issue thet are having with the adds and removes of the event listeners every time the program renders.
+The reviewer of the code goes on to explain a high level issue with the code rather than explaining the issue with context specific example.
+
